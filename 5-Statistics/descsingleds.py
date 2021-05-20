@@ -26,6 +26,11 @@ def generate_rand_friends(n,k):
     return [int(100* random.random()) for x in range(n)]
 print(generate_rand_friends(1000,3))
 
+# generate random mins
+def generate_rand_mins(n,s):
+	random.seed(s)
+	return [int(1440*random.random()) for x in range(n)]
+
 
 # In[3]:
 
